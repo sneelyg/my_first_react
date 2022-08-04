@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar(){
   return (
-    <nav className="navbar navbar-expand-lg bg-dark text-light">
+    <div className="navbar navbar-expand-lg bg-dark text-light mt-0" style={{position: 'fixed' , width:'100%'}}>
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           Navbar
@@ -41,7 +41,7 @@ function Navbar(){
           </ul>
         </div>
       </div>
-    </nav>
+    </div>
   );
 };
 

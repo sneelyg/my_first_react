@@ -2,8 +2,8 @@ import React from "react";
 
 function Card(props) {
   return (
-    <div className="card" style={{width: "18rem"}}>{/*<!--2 parentesis de llave  para mostrar q es JS y otro para demostrar que es un objeto-->*/}
-      <img src={props.url}className="card-img-top" alt="..." /> 
+    <div className="card mx-2 mb-2" style={{width: "18rem"}}>{/*<!--2 parentesis de llave  para mostrar q es JS y otro para demostrar que es un objeto-->*/}
+      <img src={props.url}className="card-img-top mt-2 rounded" alt="..." /> 
       <div className="card-body">
         <h5 className="card-title">Card title</h5>
         <p className="card-text">
