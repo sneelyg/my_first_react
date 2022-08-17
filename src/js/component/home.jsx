@@ -1,17 +1,17 @@
 import React from "react";
 
 //include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
+
 import Card from "./card.js";
 import Navbar from "./navbar.js";
 import Jumbotron from "./jumbotron.js"
-import Topnav from "./topnav.js"
+
 
 //create your first component
 const Home = () => {
   return (
-    <div className="container">
-		<Topnav/>
+    <div className="container-fluid">
+		<Navbar/>
 			<Jumbotron/>
       <div className="row">
       <Card url="https://media.istockphoto.com/photos/mini-robot-finger-point-picture-id1050049486?k=20&m=1050049486&s=612x612&w=0&h=tkNNfPfOhK6V-M8k_nsQcF4IHMI96_4zszg0dBP-Q94=" />
